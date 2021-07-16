@@ -65,14 +65,16 @@ body{
 }
 .card-bottom{
     text-align: center;
+    
 }
 .name{
-    margin-top:6.25rem;
+    margin-top:10.25rem;
     margin-bottom: 0.625rem;
     color: var(--VeryDarkDesaturatedBlue);
 }
 span{
     color: var(--DarkGrayishBlue);
+    
 }
 hr{
     position: absolute;
@@ -105,4 +107,13 @@ td{
     .top-background{
         display: none;
     }
+}
+
+#enter_btn{
+    border-radius: 4px;
+    color:white;
+    background-color: blue;
+    border-color: white;
+    margin-top: 5px;
+    cursor:pointer;
 }
